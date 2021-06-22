@@ -634,9 +634,7 @@ a#logo5>img {
   #social img{
     width: 40px;
   }
-  .part_2 , .part_3{
-    overflow-x: hidden;
-  }
+
 }
 @media only screen and (min-width:340px) and (max-width:400px){
   #logo1,
@@ -786,7 +784,7 @@ a#logo5>img {
   }
 }
 @media only screen and (min-width:400px) and (max-width:500px){
-  .part_1{
+  .part_1,.part_2, .part_3{
     overflow-x: hidden;
   }
   .carousel-control-prev{
@@ -804,7 +802,7 @@ a#logo5>img {
   }
 }
 @media only screen and (min-width:300px) and (max-width:400px){
-  .part_1{
+  .part_1,.part_2, .part_3{
     overflow-x: hidden;
   }
   .carousel-control-prev{
@@ -816,8 +814,12 @@ a#logo5>img {
     display: none;
   }
   .carousel-inner .carousel-item img{
-    padding-top: 100px;
+    padding-top: 70px;
     width: 95%;
     margin: auto;
+  }
+  .carousel-indicators
+  {
+    margin-bottom: 30px;
   }
 }
