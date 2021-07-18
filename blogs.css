@@ -6,6 +6,16 @@
   margin-left: 50px;
   margin-right: 50px;  
 }
+.part_1 h2{
+  background-color: #053D4D;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 12px;
+}
 .latest_blog{
   height: 75vh;
   width: 100%;

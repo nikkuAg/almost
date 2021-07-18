@@ -11,7 +11,9 @@
   margin-bottom: 7vh;
   font-family: Railway;
   font-weight: bolder;
+  color: #3F3D56;
 }
+
 .part_1 .bodypart p{
   display: flex;
   align-items: center;
@@ -25,7 +27,7 @@
   margin-bottom: 5vh;
 }
 .part_1 .bodypart{
-  background-color: #13307D;
+  background-color: #053D4D;
   padding: 40px;
   margin-bottom: 9vh;
   border-radius: 10px;
@@ -44,6 +46,7 @@
   font-family: Railway;
   font-weight: bolder;
   font-size: 40px;
+  color: #2F2E41;
 }
 /* part_2.1 starts */
 .part_2 .part_2_1{
@@ -52,15 +55,13 @@
 .part_2 .general_1 h3{
   margin-top: 30px;
   margin-left: 30px;
-  color: #80895C;
-  font-family: Raleway;
+  color: #2C7272;
   font-size: 35px;
   margin-bottom: 20px;
   font-weight: bolder;
 }
-.part_2 .general_1 ol{
+.part_2 .general_1 ul{
   margin-top: 20px;
-  font-family: Raleway;
   font-size: 22px;
 }
 .part_2 .general_2 img{
@@ -78,14 +79,12 @@
 .part_2 .camp_2 h3{
   margin-top: 20px;
   margin-left: 10px;
-  color: #80895C;
-  font-family: Raleway;
+  color: #2C7272;
   font-size: 35px;
   margin-bottom: 20px;
   font-weight: bolder;
 }
-.part_2 .camp_2 ol{
-  font-family: Raleway;
+.part_2 .camp_2 ul{
   font-size: 22px;
 }
 .part_2 .camp_1 img{
@@ -100,14 +99,12 @@
 .part_2 .social_1 h3{
   margin-top: 30px;
   margin-left: 30px;
-  color: #80895C;
-  font-family: Raleway;
+  color: #2C7272;
   font-size: 35px;
   margin-bottom: 20px;
   font-weight: bolder;
 }
-.part_2 .social_1 ol{
-  font-family: Raleway;
+.part_2 .social_1 ul{
   font-size: 22px;
 }
 .part_2 .social_2 img{
