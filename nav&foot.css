@@ -2,10 +2,18 @@
 .ncc-bg-green{
   background-color: #235553;
 }
+.ncc-bg-green-1{
+  background-color: #053D4D;
+}
+/* color  */
+.ncc-white{
+  color: #f2f2f2;
+}
 
 * {
     transition: 0.5s all;
     outline: none !important;
+    font-family: 'Roboto', sans-serif !important;
   }
   /* body  */
   body{
@@ -17,7 +25,7 @@
     position: fixed;
     top: 0;
     height: 13vh;
-    z-index: 1;
+    z-index: 5;
   }
   /* NCC and IITR Logo */
   .logo .logoncc {
@@ -142,8 +150,7 @@
 .footer{
   display: flex;
   justify-content: space-between;
-  color: #f2f2f2; 
-  background-color: #235553;
+  color: #f2f2f2;
 }
 /* Contact  */
 .contact{
