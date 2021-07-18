@@ -1,97 +1,148 @@
-/* body */
-
-/* body part_1 starts */
-.part_1{
-  margin-top: 15vh;
-  margin-left: 50px;
-  margin-right: 50px;  
-}
-.latest_blog{
-  height: 75vh;
-  width: 100%;
-  background: url(shane-rounce-DNkoNXQti3c-unsplash.jpg);
-  border: 1px solid black;
-  margin-top: 3vh;
-  box-shadow: 0 5px 10px rgb(154 160 185 / 5%), 0 15px 40px rgb(166 173 201 / 20%);
-}
-.latest_blog img{
-  height: 75vh;
-  width: 100%;
-  opacity: 1;
-}
-.latest_blog p{
-  position: relative;
-  transform: translateY(-10vh);
-  font-size: 45px;
-  justify-content: center;
-  align-items: center;
-  padding-left: 15px;
-  border-radius: 10px;
-  color: white;
-  display: inline-block;
-  font-weight: 700;
-}
-.latest_blog:hover img{
-  filter: blur(2px);
-}
-.latest_blog:hover p{
-  transform: translateY(-15vh);
-  color: black;
-}
-.part_1 h2:nth-of-type(2){
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-}
-.part_1 .previous_blogs{
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-  height: fit-content;
- 
-}
-.part_1 .card{
-  height: 300px;
-  width: 100%;
-  border: 1px solid transparent;
-  overflow-y: visible;
-}
-.part_1 .card img{
-  height: 100%;
-  width: 20%;
-  border: 1px solid black;
-  padding-right: 20px;
-}
-.part_1 .card p{
-  width: 100%;
-  font-size: 25px;
-  font-weight: 700;
-  color: black;
-  margin-top: 10px;
+/* Background color */
+.ncc-bg-green{
+  background-color: #235553;
 }
 
-.part_1 .card a{
-  text-decoration: none;
-  color: black;
-}
-.part_1 .latest_blog a{
-  text-decoration: none;
-  color: white;
-}
-/* .card:hover p {
-  transform: translate3d(400px,-200px,0);
-} */
-
-/* body part_1 ends */
-
-
-
+* {
+    transition: 0.5s all;
+    outline: none !important;
+  }
+  /* body  */
+  body{
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+  .navbar{
+    position: fixed;
+    top: 0;
+    height: 13vh;
+    z-index: 1;
+  }
+  /* NCC and IITR Logo */
+  .logo .logoncc {
+    width: 75px;
+  }
+  .logo .logoiitr1{
+    width: 65px;
+  }
+  /* Menu  */
+  .menu ul li {
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+  }
+  .menu ul li a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 5px 20px;
+  }
+  .menu ul li a:hover, .active1{
+    color: #235553 !important;
+    padding: 5px 20px;
+    background-color: #d0ece7;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  /* IITR Logo 2 */
+  .logoiitr2 {
+    margin-right: 15px;
+    padding-top: 7px;
+  }
+  .logoiitr2 img{
+    margin-top: -15px;
+    width: 70px;
+  }
+  /* Hamburger */
+  .hamburger-menu {
+    display: none;
+  }
+  #menu__toggle {
+    opacity: 0;
+  }
+  /* If want to change the hamburger icon to cross icon */
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    right: 0;
+  }
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 3.5vh;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+    margin-top: 15px;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before { 
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  /* Hamburger Menu Box  */
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+    width: 250px;
+    height: 400px;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #0d6efd;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    transition-duration: .25s;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 10px;
+  }
+  .menu__item {
+    display: block;
+    padding: 7px 24px;
+    color: #FFFFFF;
+    font-family: 'Nimbus Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menu__item:hover {
+    background-color: rgba(178, 194, 233, 0.3);
+    color: #FFFFFF;
+  }
 
 /* footer part starts */
 .footer{
   display: flex;
-  margin-top: 12vh;
   justify-content: space-between;
-  background-color: #A2A2A6; 
+  color: #f2f2f2; 
 }
 /* Contact  */
 .contact{
@@ -160,6 +211,9 @@ a#logo5>img {
 /* media query part */
 /* For Mobile View  */
 @media only screen and (max-width:779px) {
+  .logoncc{
+    width: 60px;
+  }
   .menu {
       display: none;
   }
@@ -255,16 +309,32 @@ a#logo5>img {
   }
   .menu{
     position: absolute;
-    left: 90px;
+    left: 70px;
   }
-  
 }
 
-/* for main home page */
-
-
-
 @media only screen and (min-width:400px) and (max-width:500px){
+  .pledge_1 p{
+    font-size: small;
+    margin-top: 20px;
+  }
+  .pledge_1 h2{
+    font-size: large;
+    margin-top: 0px;
+  }
+  .pledge_0 img{
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .aim_0 h2{
+    font-size: large;
+  }
+  .aim_0 p, .aim_0 ul{
+    font-size: small;
+  }
+  .aim_1{
+    height: 50vh;
+  }
   #logo1,
   #logo2,
   #logo3,
@@ -283,6 +353,29 @@ a#logo5>img {
   }
 }
 @media only screen and (min-width:300px) and (max-width:400px){
+  .pledge_1 p{
+    font-size: smaller;
+  }
+  .pledge_1 h2{
+    font-size: large;
+    margin-top: 0PX;
+  }
+  .aim_0 h2{
+    font-size: medium;
+  }
+  .aim_0 p, .aim_0 ul{
+    font-size: smaller;
+  }
+  .aim_1{
+    height: 50vh;
+  }
+
+  .pledge_0 {
+    margin-top: 0px;
+  }
+  .pledge_1 p{
+    margin-top: 30px;
+  }
   .contact h4{
     font-size: 15px;
   }
@@ -292,6 +385,8 @@ a#logo5>img {
   .address p{
     font-size: 15px;
   }
+ 
+
 }
 @media only screen and (min-width:300px) and (max-width:341px){
 #social{
@@ -308,12 +403,16 @@ a#logo5>img {
   #logo5 {
     padding: 0px;
   }
+  .aim_1 img{
+    width: 90%;
+  }
+  .pledge_0 img{
+    padding-left: 90px;
+  }
   #social img{
     width: 40px;
   }
-  .part_2 , .part_3{
-    overflow-x: hidden;
-  }
+
 }
 @media only screen and (min-width:340px) and (max-width:400px){
   #logo1,
@@ -322,6 +421,12 @@ a#logo5>img {
   #logo4,
   #logo5 {
     padding: 0px;
+  }
+  .aim_1 img{
+    width: 90%;
+  }
+  .pledge_0 img{
+    padding-left: 90px;
   }
   .contact p{
     margin-bottom: 0px;
@@ -333,88 +438,5 @@ a#logo5>img {
   }
   #social img{
     width: 45px;
-  }
-}
-@media only screen and (min-width:1024px) and (max-width:1440px) {
-  .footer{
-    margin-top: 5%;
-  }
-}
-@media only screen and (min-width:768px) and (max-width:1024px) {
-  .footer{
-    margin-top: 5%;
-  }
-  .part_1 .card img{
-    width: 30%;
-    padding-right: 0px;
-  }
-}
-@media only screen and (min-width:500px) and (max-width:768px) {
-  .footer{
-    margin-top: 7%;
-  }
-  .latest_blog p {
-    transform: translateY(-25vh);
-  }
-  .part_1 .card img{
-    width: 40%;
-    padding-right: 0px;
-  }
-}
-@media only screen and (min-width:400px) and (max-width:500px) {
-  .footer{
-    margin-top: 10%;
-  }
-  .latest_blog p {
-    transform: translateY(-18vh);
-    font-size: 30px;
-  }
-  .part_1 .card img{
-    width: 90%;
-    padding-right: 0px;
-  }
-  .part_1 .card p{
-    font-size: 20px;
-  }
-  
-}
-@media only screen and (min-width:350px) and (max-width:400px) {
-  .footer{
-    margin-top: 40px;
-  }
-  .latest_blog p {
-    transform: translateY(-18vh);
-    font-size: 30px;
-  }
-  .part_1 .card img{
-    width: 100%;
-    padding-right: 0px;
-  }
-  .part_1 .card p{
-    font-size: 17px;
-  }
-  .part_1{
-    margin-left: 20px;
-    margin-right: 20px;  
-  }
-}
-@media only screen and (min-width:300px) and (max-width:350px) {
-  .footer{
-    margin-top: 70px;
-  }
-  .latest_blog p {
-    transform: translateY(-18vh);
-    font-size: 30px;
-  }
-  .part_1 .card img{
-    width: 100%;
-    padding-right: 0px;
-  }
-  .part_1 .card p{
-    font-size: 17px;
-  }
-  .part_1{
-    margin-left: 20px;
-    margin-right: 20px;  
   }
 }

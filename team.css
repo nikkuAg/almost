@@ -165,7 +165,7 @@ body{
 .footer{
   display: flex;
   justify-content: space-between;
-  background-color: #676768; 
+  background-color: #A2A2A6; 
 }
 
 /* Contact  */
@@ -367,19 +367,19 @@ a#logo5>img {
 
 /* Team */
 .cadets{
-  margin-top: 150px;
+  margin-top: 130px;
 }
 
-.cadets h2{
+/* .cadets h2{
   margin-left: 25px;
-}
+} */
 
 .cadets .row .col img{
   border-radius:1.25rem;
   display:block;
   margin:0px auto;
   width: 261px;
-  height: 262px;
+  height: 230px;
 }
 .alumni h2{
   margin-left: 25px;
@@ -403,32 +403,32 @@ a#logo5>img {
 }
 @media only screen and (max-width:768px){
   .cadets .row .col img{
-    width: 300px;
-    height: 270px;
+    width: 261px;
+    height: 230px;
   }
   .alumni .row .col img{
-    width: 300px;
-    height: 270px;
+    width: 261px;
+    height: 230px;
   }
 }
 @media only screen and (min-width:570px) and (max-width:767px){
-  .cadets h2{
+  /* .cadets h2{
     margin-left: 130px;
-  }
+  } */
 
   .alumni h2{
     margin-left: 130px;
   }
 }
 @media only screen and (min-width:530px) and (max-width:570px){
-  .cadets h2{
+  /* .cadets h2{
     margin-left: 120px;
-  }
+  } */
   .alumni h2{
     margin-left: 120px;
   }
 }
-@media only screen and (min-width:490px) and (max-width:530px){
+/* @media only screen and (min-width:490px) and (max-width:530px){
   .cadets h2{
     margin-left: 105px;
   }
@@ -451,4 +451,4 @@ a#logo5>img {
   .alumni h2{
     margin-left: 60px;
   }
-}
+} */

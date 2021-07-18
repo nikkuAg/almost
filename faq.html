@@ -12,6 +12,7 @@
 
     <!-- Home Page CSS  -->
     <link rel="stylesheet" href="faq.css">
+    <link rel="stylesheet" type="text/css" href="nav&foot.css">
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -22,26 +23,26 @@
 
 <body>
     <!-- Navbar  -->
-    <div class="navbar bg-primary">
+    <div class="navbar w-100 ncc-bg-green">
         <!-- NCC and IITR Logo -->
-        <div class="logo">
+        <div class="logo ms-2">
             <img src="logoncc.png" alt="" class="logoncc">
-            <img src="logoiitr.png" alt="" class="logoiitr1">
+            <img src="nccwhite.png" alt="" class="logoiitr1 mb-4">
         </div>
         <!-- Menu  -->
-        <div class="menu">
+        <div class="menu pt-3">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="event.html">Events</a></li>
                 <li><a href="team.html">Team</a></li>
                 <li><a href="blogs.html">Blog</a></li>
-                <li><a href="faq.html">FAQs</a></li>
+                <li><a href="faq.html" class="active1">FAQs</a></li>
             </ul>
         </div>
         <!-- IITR Logo 2 -->
         <div class="logoiitr2">
-            <img src="logoiitr.png" alt="">
+            <img src="nccwhite.png" alt="">
         </div>
         <!-- Hamburger  -->
         <div class="hamburger-menu">
@@ -65,7 +66,66 @@
     <div class="faqs container">
         <h2>Frequently Asked Questions</h2>
         <div class="mt-5 mb-5">
-            <p>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            1. What is National Cadet Corps ?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Accordion Item #2
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Accordion Item #3
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <p>
                 <span style="font-weight: bold;">1. What is National Cadet Corps ?</span> <br>
                 The National Cadet Corps (NCC) is a youth development movement. It has enormous potential for nation
                 building. The NCC provides opportunities to the youth of the country for their all-round development
@@ -119,7 +179,7 @@
             <p>
                 <span style="font-weight: bold;">10. What do the Lotus flowers depicts in NCC Crest ?</span> <br>
                 The seventeen lotuses represent the 17 State Directorates.
-            </p>
+            </p> -->
         </div>
     </div>
 
