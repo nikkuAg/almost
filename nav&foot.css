@@ -5,6 +5,7 @@
 .ncc-bg-green-1{
   background-color: #053D4D;
 }
+/* color  */
 .ncc-white{
   color: #f2f2f2;
 }
@@ -12,6 +13,7 @@
 * {
     transition: 0.5s all;
     outline: none !important;
+    font-family: 'Roboto', sans-serif !important;
   }
   /* body  */
   body{
@@ -148,8 +150,7 @@
 .footer{
   display: flex;
   justify-content: space-between;
-  color: #f2f2f2; 
-  background-color: #235553;
+  color: #f2f2f2;
 }
 /* Contact  */
 .contact{
