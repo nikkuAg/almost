@@ -1,234 +1,24 @@
-/* footer */
-.footer{
-  display: flex;
-  justify-content: space-between;
-  background-color: #A2A2A6; 
-}
-
-/* Contact  */
-
-.contact{
-  margin-left: 30px;
-  margin-top: 20px;
-}
-
-.contact p{
-  font-weight: 600;
-}
-
-/* Social  */
-
-#social{
-  display: flex;
-  height: 75px;
-  padding-top: 20px;
-}
-
-a#logo1:hover>img,
-a#logo2:hover>img,
-a#logo3:hover>img,
-a#logo4:hover>img,
-a#logo5:hover>img {
-  transform: scale(1.0);
-}
-
-a#logo1:hover>img {
-  background: rgb(0, 89, 255);
-}
-
-a#logo2:hover>img {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-}
-
-a#logo3:hover>img {
-  background: #c4302b;
-}
-
-a#logo4:hover>img {
-  background: #00acee;
-}
-
-a#logo5:hover>img {
-  background: #0e76a8;
-}
-
-#logo1,
-#logo2,
-#logo3,
-#logo4,
-#logo5 {
-  padding: 20px;
-}
-
-a#logo1>img,
-a#logo2>img,
-a#logo3>img,
-a#logo4>img,
-a#logo5>img {
-  border-radius: 50%;
-  background: transparent;
-}
-
-/* Address  */
-
-.address{
-  margin-right: 30px;
-  margin-top: 20px;
-}
-
-.address p{
-  font-weight: 600;
-}
-
-/* For Mobile View  */
-@media only screen and (max-width:779px) {
-  .menu {
-      display: none;
-  }
-
-  .hamburger-menu {
-      display: block;
-  }
-
-  .logoiitr2 {
-      display: none;
-  }
-  .footer{
-    flex-direction: column;
-    align-items: center;
-  }
-  .contact{
-    margin-left: 0px;
-    margin-top: 10px;
-    text-align: center;
-  }
-  .contact h4{
-    font-size: 20px;
-  }
-  .contact p{
-    font-size: 20px;
-  }
-  #social {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 5px;
-  }
-  .address{
-    margin-right: 0px;
-    margin-top: 10px;
-    text-align: center;
-  }
-  .address p{
-    font-size: 20px;
-  }
-}
-
-@media only screen and (min-width:779px) and (max-width:910px) {
-  .logoiitr1 {
-      display: none;
-  }
-  #social #logo1, #logo2, #logo3, #logo4, #logo5 {
-    padding-top: 20px;
-  }
-  #social{
-    padding: 30px 2px;
-  }
-  #social img{
-    width: 40px;
-  }
-  .contact{
-    margin-left: 3px;
-    padding: 0px 10px;
-  }
-  .contact h4{
-    font-size: 20px;
-  }
-  .contact p{
-    font-size: 16px;
-  }
-  .address{
-    margin-right: 8px;
-  }
-  .address p{
-    font-size: 18px;
-  }
-}
-/* For window View */
-@media only screen and (min-width:779px) {
-  .logoiitr1 {
-      display: none;
-  }
-  .hamburger-menu{
-    display: none;
-  }
-  .menu{
-    position: absolute;
-    left: 90px;
-  }
-}
-@media only screen and (min-width:400px) and (max-width:500px){
-  #logo1,
-  #logo2,
-  #logo3,
-  #logo4,
-  #logo5 {
-    padding: 10px;
-  }
-}
-@media only screen and (min-width:300px) and (max-width:340px){
-  #social{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center; 
-    padding: 0px;
-  }
-  #logo1,
-  #logo2,
-  #logo3,
-  #logo4,
-  #logo5 {
-    padding: 0px;
-  }
-}
-@media only screen and (min-width:340px) and (max-width:400px){
-  #logo1,
-  #logo2,
-  #logo3,
-  #logo4,
-  #logo5 {
-    padding: 0px;
-  }
-}
-
-
 /* Events */
 .events{
   margin-top: 150px;
 }
 
-.events h2{
-  margin-left: 20px;
-}
-
 .events .row .col img{
-  border-radius:1.25rem;
-  display:block;
-  margin:0px auto;
   width: 261px;
   height: 262px;
 }
 
-.upevents h2{
-  margin-left: 20px;
+.events .row .col img:hover{
+  box-shadow: 3px 3px 2px 4px #c2bfbf;
 }
 
 .upevents .row .col img{
-  border-radius:1.25rem;
-  display:block;
-  margin:0px auto;
   width: 261px;
   height: 262px;
+}
+
+.upevents .row .col img:hover{
+  box-shadow: 3px 3px 2px 4px #c2bfbf;
 }
 
 @media only screen and (max-width:767px){
@@ -239,46 +29,5 @@ a#logo5>img {
   .upevents .row .col img{
     width: 300px;
     height: 270px;
-  }
-}
-
-@media only screen and (min-width:570px) and (max-width:767px){
-  .events h2{
-    margin-left: 130px;
-  }
-  .upevents h2{
-    margin-left: 130px;
-  }
-}
-@media only screen and (min-width:530px) and (max-width:570px){
-  .events h2{
-    margin-left: 120px;
-  }
-  .upevents h2{
-    margin-left: 120px;
-  }
-}
-@media only screen and (min-width:490px) and (max-width:530px){
-  .events h2{
-    margin-left: 105px;
-  }
-  .upevents h2{
-    margin-left: 105px;
-  }
-}
-@media only screen and (min-width:460px) and (max-width:490px){
-  .events h2{
-    margin-left: 80px;
-  }
-  .upevents h2{
-    margin-left: 80px;
-  }
-}
-@media only screen and (min-width:385px) and (max-width:460px){
-  .events h2{
-    margin-left: 60px;
-  }
-  .upevents h2{
-    margin-left: 60px;
   }
 }
