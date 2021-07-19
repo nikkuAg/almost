@@ -30,6 +30,7 @@
   /* NCC and IITR Logo */
   .logo .logoncc {
     width: 75px;
+    margin-top: 3px;
   }
   .logo .logoiitr1{
     width: 65px;
@@ -94,7 +95,7 @@
     height: 26px;
     cursor: pointer;
     z-index: 1;
-    margin-top: 15px;
+    margin-top: 9px;
   }
   .menu__btn > span,
   .menu__btn > span::before,
@@ -228,9 +229,9 @@ a#logo5>img {
   .hamburger-menu {
       display: block;
   }
-  .menu__btn{
+  /* .menu__btn{
     margin-top: 10px;
-  }
+  } */
   .logoiitr1{
     margin-bottom: 5px;
   }
