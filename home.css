@@ -56,8 +56,9 @@
   font-size: x-large;
 }
 .part_2 span:nth-child(1){
-  font-size: xx-large;
-  text-shadow: 2px 7px 9px rgba(0, 0, 0, 0.4);
+  font-size: xxx-large;
+  font-weight: 700;
+  font-family: 'Roboto';
 }
 /* aim _0 section */
 .aim_0{
