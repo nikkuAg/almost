@@ -9,7 +9,7 @@
 }
 
 .events .row .col img:hover{
-  box-shadow: 3px 3px 2px 4px #c2bfbf;
+  box-shadow: 0 10px 10px rgb(154 160 185 / 20%), 0 15px 40px rgb(166 173 201 / 20%);
 }
 
 .upevents .row .col img{
@@ -18,7 +18,7 @@
 }
 
 .upevents .row .col img:hover{
-  box-shadow: 3px 3px 2px 4px #c2bfbf;
+  box-shadow: 0 10px 10px rgb(154 160 185 / 20%), 0 15px 40px rgb(166 173 201 / 20%);
 }
 
 @media only screen and (max-width:767px){
