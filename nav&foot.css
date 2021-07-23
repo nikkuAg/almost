@@ -5,6 +5,9 @@
 .ncc-bg-green-1{
   background-color: #053D4D;
 }
+.ncc-fw-600{
+  font-weight: 600;
+}
 /* color  */
 .ncc-white{
   color: #f2f2f2;
@@ -24,7 +27,7 @@
   .navbar{
     position: fixed;
     top: 0;
-    height: 13vh;
+    height: 13vh !important;
     z-index: 5;
   }
   /* NCC and IITR Logo */
@@ -35,7 +38,8 @@
     margin-left: 10px;
   }
   .logo .logoiitr1{
-    width: 70px;
+    width: 73px;
+    margin-top: 2px;
   }
   /* Menu  */
   .menu ul li {
@@ -62,7 +66,7 @@
   }
   .logoiitr2 img{
     margin-top: -2px;
-    width: 70px;
+    width: 72px;
   }
   /* Hamburger */
   .hamburger-menu {
@@ -160,9 +164,6 @@
   margin-left: 30px;
   margin-top: 20px;
 }
-.contact p{
-  font-weight: 600;
-}
 /* Social  */
 #social{
   display: flex;
@@ -212,9 +213,6 @@ a#logo5>img {
   margin-right: 30px;
   margin-top: 20px;
 }
-.address p{
-  font-weight: 600;
-}
 /* footer part ends */
 
 
@@ -222,9 +220,9 @@ a#logo5>img {
 /* media query part */
 /* For Mobile View  */
 @media only screen and (max-width:779px) {
-  .logoncc{
+  /* .logoncc{
     width: 60px;
-  }
+  } */
   .menu {
       display: none;
   }
@@ -450,8 +448,7 @@ a#logo5>img {
 }
 @media only screen and (max-width:779px) {
   .logo .logoncc {
-    margin-top: -5px;
-    height: 75px;
+    margin-top: 0px;
 }
   
 }

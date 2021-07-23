@@ -1,4 +1,4 @@
-.ncc-span-fs{
+.ncc-div-fs{
   font-size: 12px;
   font-family: 'Open Sans', sans-serif !important;
 }
@@ -11,7 +11,7 @@
   width: 240px;
   height: 230px;
 }
-.cadets .row .col p{
+.cadets .row .col div{
   width: 240px;
 }
 /*  
@@ -22,7 +22,7 @@
 
 @media only screen and (min-width:1000px){
   .row1{
-    margin:0px 155px;
+    margin:0px 158px;
   }
   .row2{
     margin:0px -90px;
@@ -37,7 +37,7 @@
     width: 261px;
     height: 230px;
   } */
-  .cadets .row .col p{
+  .cadets .row .col div{
     width: 261px;
   }
 }
