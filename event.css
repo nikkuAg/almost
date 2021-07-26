@@ -12,6 +12,11 @@
   box-shadow: 0 10px 10px rgb(154 160 185 / 20%), 0 15px 40px rgb(166 173 201 / 20%);
 }
 
+.modal-body img{
+  width: 600px !important;
+  height: 600px !important;
+}
+
 .upevents .row .col img{
   width: 261px;
   height: 262px;
@@ -29,5 +34,20 @@
   .upevents .row .col img{
     width: 300px;
     height: 270px;
+  }
+  .modal-body img{
+    width: 310px !important;
+    height: 350px !important;
+  }
+  .modal-dialog{
+    max-width: 345px;
+  }
+}
+@media only screen and (max-width:576px){
+}
+
+@media only screen and (min-width:767px){
+  .modal-dialog{
+    max-width: 635px;
   }
 }
