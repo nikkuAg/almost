@@ -236,7 +236,7 @@
     margin-top: 0px;
   }
   .aim_0 h2{
-    font-size: large;
+    font-size: x-large;
   }
   .aim_0 p, .aim_0 ul{
     font-size: small;
@@ -260,8 +260,14 @@
   .address p{
     font-size: 17px;
   }
+  .part_2 span:nth-child(1){
+    font-size: xx-large;
+  }
 }
 @media only screen and (min-width:300px) and (max-width:400px){
+  .part_2 span:nth-child(1){
+    font-size: xx-large;
+  }
   .pledge_1 p{
     font-size: smaller;
   }
@@ -270,7 +276,7 @@
     margin-top: 0PX;
   }
   .aim_0 h2{
-    font-size: medium;
+    font-size: x-large !important;
   }
   .aim_0 p, .aim_0 ul{
     font-size: smaller;
