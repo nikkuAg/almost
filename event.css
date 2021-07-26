@@ -41,9 +41,18 @@
   }
   .modal-dialog{
     max-width: 345px;
+    margin: 0px auto;
   }
 }
-@media only screen and (max-width:576px){
+@media only screen and (max-width:536px){
+  .modal-body img{
+    width: 288px !important;
+    height: 350px !important;
+  }
+  .modal-dialog{
+    max-width: 322px;
+    margin: 0px auto;
+  }
 }
 
 @media only screen and (min-width:767px){
