@@ -20,9 +20,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/95e1686374.js" crossorigin="anonymous"></script>
 
     <title>Team Page</title>
 </head>
@@ -32,8 +34,8 @@
     <div class="navbar w-100 ncc-bg-green">
         <!-- NCC and IITR Logo -->
         <div class="logo ms-2">
-            <img src="NCC_1.png" alt="" class="logoncc">
-            <img src="nccwhite.png" alt="" class="logoiitr1 mb-4">
+            <a href="https://indiancc.nic.in/" target="_blank"><img src="NCC_1.png" alt="" class="logoncc"></a>
+            <a href="https://www.iitr.ac.in/" target="_blank"><img src="nccwhite.png" alt="" class="logoiitr1 mb-3"></a>
         </div>
         <!-- Menu  -->
         <div class="menu pt-3">
@@ -48,7 +50,7 @@
         </div>
         <!-- IITR Logo 2 -->
         <div class="logoiitr2">
-            <img src="nccwhite.png" alt="">
+            <a href="https://www.iitr.ac.in/" target="_blank"><img src="nccwhite.png" alt=""></a>
         </div>
         <!-- Hamburger  -->
         <div class="hamburger-menu">
@@ -100,6 +102,12 @@
                     <div class="ncc-div-fs">
                         Faculty Advisor, NCC IIT Roorkee
                     </div>
+                    <div class="ncc-div-fs">
+                        <span> <i class="fas fa-envelope"></i> premalata.jena@ee.iitr.ac.in</span>
+                    </div>
+                    <div class="ncc-div-fs">
+                        <span> <i class="fas fa-phone-alt"></i> 01332-284757</span>
+                    </div>
                 </div>
             </div>
             <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
@@ -109,6 +117,12 @@
                     <div class="ncc-div-fs">
                         Associate NCC Officer
                     </div>
+                    <div class="ncc-div-fs">
+                        <span> <i class="fas fa-envelope"></i> mukesh.bhardwaj@mt.iitr.ac.in</span>
+                    </div>
+                    <!-- <div class="ncc-div-fs">
+                        <span> <i class="fas fa-phone-alt"></i> premalata.jena@ee.iitr.ac.in</span>
+                    </div> -->
                 </div>
             </div>
             <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
@@ -118,132 +132,294 @@
                     <div class="ncc-div-fs">
                         Associate NCC Officer
                     </div>
+                    <div class="ncc-div-fs">
+                        <span> <i class="fas fa-envelope"></i> inderdeep.singh@me.iitr.ac.in</span>
+                    </div>
+                    <div class="ncc-div-fs">
+                        <span> <i class="fas fa-phone-alt"></i> 91-1332-285614</span>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- 1st Row  -->
-        <div class="row mb-4" style="display: flex;">
-            <h3 class="text-center ncc-white ncc-bg-green-1 p-2 mb-5 mt-5 rounded">STUDENT TEAM</h3>
-            <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
-                <div><img src="bhaktan.png" alt="" class="rounded"></div>
-                <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
-                    <div class="fw-bold">Abhishek Kumar Jha</div>
-                    <div class="ncc-div-fs">
-                        General Secretary <br>
-                        M. 72979 55014
-                    </div>
-                </div>
-            </div>
+        <h3 class="text-center ncc-white ncc-bg-green-1 p-2 mb-5 mt-5 rounded">STUDENT TEAM</h3>
+        <div class="d-flex justify-content-around">
+            <div class="btn btn-primary-2" id="21" onclick="showDiv21()">2021-22</div>
+            <div class="btn btn-primary-1" id="20" onclick="showDiv20()">2020-21</div>
+            <div class="btn btn-primary-1" id="19" onclick="showDiv19()">2019-20</div>
         </div>
-        <!-- 2nd Row  -->
-        <!-- Secretary  -->
-        <div class="row mb-4" style="display: flex;">
-            <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
-                <div><img src="bhaktan.png" alt="" class="rounded"></div>
-                <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
-                    <div class="fw-bold">Anshika Bang</div>
-                    <div class="ncc-div-fs">
-                        Secretary, Events <br>
-                        M. 81078 84899
+        <div id="year21" class="mt-5">
+            <div class="row mb-4" style="display: flex;">
+                <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
+                    <div><img src="bhaktan.png" alt="" class="rounded"></div>
+                    <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
+                        <div class="fw-bold">Abhishek Kumar Jha</div>
+                        <div class="ncc-div-fs">
+                            General Secretary
+                        </div>
+                        <div class="ncc-div-fs">
+                            <span> <i class="fas fa-phone-alt"></i> 72979 55014</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
-                <div><img src="bhaktan.png" alt="" class="rounded"></div>
-                <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
-                    <div class="fw-bold">Rajkumar khichar</div>
-                    <div class="ncc-div-fs">
-                        Secretary, Training & Sports <br>
-                        M. 91169 44290
+            <!-- 2nd Row  -->
+            <!-- Secretary  -->
+            <div class="row mb-4" style="display: flex;">
+                <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
+                    <div><img src="bhaktan.png" alt="" class="rounded"></div>
+                    <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
+                        <div class="fw-bold">Anshika Bang</div>
+                        <div class="ncc-div-fs">
+                            Secretary, Events
+                        </div>
+                        <div class="ncc-div-fs">
+                            <span> <i class="fas fa-phone-alt"></i> 81078 84899</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
+                    <div><img src="bhaktan.png" alt="" class="rounded"></div>
+                    <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
+                        <div class="fw-bold">Rajkumar khichar</div>
+                        <div class="ncc-div-fs">
+                            Secretary, Training & Sports
+                        </div>
+                        <div class="ncc-div-fs">
+                            <span> <i class="fas fa-phone-alt"></i> 91169 44290</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
+                    <div><img src="bhaktan.png" alt="" class="rounded"></div>
+                    <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
+                        <div class="fw-bold">Prathamesh Bhaktan</div>
+                        <div class="ncc-div-fs">
+                            Secretary, Design
+                        </div>
+                        <div class="ncc-div-fs">
+                            <span> <i class="fas fa-phone-alt"></i> 63556 75831</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
+                    <div><img src="bhaktan.png" alt="" class="rounded"></div>
+                    <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
+                        <div class="fw-bold">Anuj Kumar</div>
+                        <div class="ncc-div-fs">
+                            Secretary, Web Development
+                        </div>
+                        <div class="ncc-div-fs">
+                            <span> <i class="fas fa-phone-alt"></i> 98054 95860</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
+                    <div><img src="bhaktan.png" alt="" class="rounded"></div>
+                    <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
+                        <div class="fw-bold">Varun Mishra</div>
+                        <div class="ncc-div-fs">
+                            Secretary, Editorial
+                        </div>
+                        <div class="ncc-div-fs">
+                            <span> <i class="fas fa-phone-alt"></i> 93696 78302</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
-                <div><img src="bhaktan.png" alt="" class="rounded"></div>
-                <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
-                    <div class="fw-bold">Prathamesh Bhaktan</div>
-                    <div class="ncc-div-fs">
-                        Secretary, Design <br>
-                        M. 63556 75831
+            <!-- 2nd Row  -->
+            <!-- Additional Secretary  -->
+            <div class="row" style="display: flex;">
+                <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
+                    <div><img src="bhaktan.png" alt="" class="rounded"></div>
+                    <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
+                        <div class="fw-bold">Mohit Kumar</div>
+                        <div class="ncc-div-fs">
+                            Additional Secretary, Events
+                        </div>
+                        <div class="ncc-div-fs">
+                            <span> <i class="fas fa-phone-alt"></i> 72402 12972</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
-                <div><img src="bhaktan.png" alt="" class="rounded"></div>
-                <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
-                    <div class="fw-bold">Anuj Kumar</div>
-                    <div class="ncc-div-fs">
-                        Secretary, Web Development <br>
-                        M. 98054 95860
+                <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
+                    <div><img src="bhaktan.png" alt="" class="rounded"></div>
+                    <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
+                        <div class="fw-bold">Abhishek Singh</div>
+                        <div class="ncc-div-fs">
+                            Additional Secretary, Training & Sports
+                        </div>
+                        <div class="ncc-div-fs">
+                            <span> <i class="fas fa-phone-alt"></i> 78913 74037</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
-                <div><img src="bhaktan.png" alt="" class="rounded"></div>
-                <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
-                    <div class="fw-bold">Varun Mishra</div>
-                    <div class="ncc-div-fs">
-                        Secretary, Editorial <br>
-                        M. 93696 78302
+                <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
+                    <div><img src="bhaktan.png" alt="" class="rounded"></div>
+                    <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
+                        <div class="fw-bold">Pabbathi Sowmya</div>
+                        <div class="ncc-div-fs">
+                            Additional Secretary, Design
+                        </div>
+                        <div class="ncc-div-fs">
+                            <span> <i class="fas fa-phone-alt"></i> 96520 39950</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- 2nd Row  -->
-        <!-- Additional Secretary  -->
-        <div class="row" style="display: flex;">
-            <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
-                <div><img src="bhaktan.png" alt="" class="rounded"></div>
-                <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
-                    <div class="fw-bold">Mohit Kumar</div>
-                    <div class="ncc-div-fs">
-                        Additional Secretary, Events <br>
-                        M. 72402 12972
+                <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
+                    <div><img src="bhaktan.png" alt="" class="rounded"></div>
+                    <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
+                        <div class="fw-bold">Mohit Goyal</div>
+                        <div class="ncc-div-fs">
+                            Additional Secretary, Web Development
+                        </div>
+                        <div class="ncc-div-fs">
+                            <span> <i class="fas fa-phone-alt"></i> 93047 06106</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
-                <div><img src="bhaktan.png" alt="" class="rounded"></div>
-                <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
-                    <div class="fw-bold">Abhishek Singh</div>
-                    <div class="ncc-div-fs">
-                        Additional Secretary, Training & Sports <br>
-                        M. 78913 74037
-                    </div>
-                </div>
-            </div>
-            <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
-                <div><img src="bhaktan.png" alt="" class="rounded"></div>
-                <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
-                    <div class="fw-bold">Pabbathi Sowmya</div>
-                    <div class="ncc-div-fs">
-                        Additional Secretary, Design <br>
-                        M. 96520 39950
-                    </div>
-                </div>
-            </div>
-            <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
-                <div><img src="bhaktan.png" alt="" class="rounded"></div>
-                <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
-                    <div class="fw-bold">Mohit Goyal</div>
-                    <div class="ncc-div-fs">
-                        Additional Secretary, Web Development <br>
-                        M. 93047 06106
-                    </div>
-                </div>
-            </div>
-            <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
-                <div><img src="bhaktan.png" alt="" class="rounded"></div>
-                <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
-                    <div class="fw-bold">Shashank Mishra</div>
-                    <div class="ncc-div-fs">
-                        Additional Secretary, Editorial <br>
-                        M. 82876 51829
+                <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
+                    <div><img src="bhaktan.png" alt="" class="rounded"></div>
+                    <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
+                        <div class="fw-bold">Shashank Mishra</div>
+                        <div class="ncc-div-fs">
+                            Additional Secretary, Editorial
+                        </div>
+                        <div class="ncc-div-fs">
+                            <span> <i class="fas fa-phone-alt"></i> 82876 51829</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- 2020-21  -->
+    <div id="year20" class="container teams mt-5">
+        <div class="row" style="display: flex;">
+            <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
+                <div><img src="bhaktan.png" alt="" class="rounded"></div>
+                <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
+                    <div class="fw-bold">Deepak Yadav</div>
+                    <div class="ncc-div-fs">
+                        General Secretary
+                    </div>
+                    <!-- <div class="ncc-div-fs">
+                        <span> <i class="fas fa-phone-alt"></i> 90795 43981</span>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Secretary  -->
+        <div class="row mb-4" style="display: flex;">
+            <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
+                <div><img src="bhaktan.png" alt="" class="rounded"></div>
+                <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
+                    <div class="fw-bold">Gedila Sarita</div>
+                    <div class="ncc-div-fs">
+                        Joint Secretary, Events
+                    </div>
+                    <!-- <div class="ncc-div-fs">
+                        <span> <i class="fas fa-phone-alt"></i> 97057 65414</span>
+                    </div> -->
+                </div>
+            </div>
+            <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
+                <div><img src="bhaktan.png" alt="" class="rounded"></div>
+                <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
+                    <div class="fw-bold">Nitesh Kumar</div>
+                    <div class="ncc-div-fs">
+                        Joint Secretary, Training & Sports
+                    </div>
+                    <!-- <div class="ncc-div-fs">
+                        <span> <i class="fas fa-phone-alt"></i> 96492 01808</span>
+                    </div> -->
+                </div>
+            </div>
+            <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
+                <div><img src="bhaktan.png" alt="" class="rounded"></div>
+                <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
+                    <div class="fw-bold">SDL Malvika</div>
+                    <div class="ncc-div-fs">
+                        Joint Secretary, Administration
+                    </div>
+                    <!-- <div class="ncc-div-fs">
+                        <span> <i class="fas fa-phone-alt"></i> 95508 58895</span>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 2019-20  -->
+    <div id="year19" class="container teams mt-5">
+        <div class="row" style="display: flex;">
+            <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
+                <div><img src="bhaktan.png" alt="" class="rounded"></div>
+                <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
+                    <div class="fw-bold">Lavkush Verma</div>
+                    <div class="ncc-div-fs">
+                        General Secretary
+                    </div>
+                    <!-- <div class="ncc-div-fs">
+                        <span> <i class="fas fa-phone-alt"></i> 94500 24970</span>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Secretary  -->
+        <div class="row mb-4" style="display: flex;">
+            <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
+                <div><img src="bhaktan.png" alt="" class="rounded"></div>
+                <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
+                    <div class="fw-bold">Shivani Snigdha</div>
+                    <div class="ncc-div-fs">
+                        Joint Secretary, Administration
+                    </div>
+                    <!-- <div class="ncc-div-fs">
+                        <span> <i class="fas fa-phone-alt"></i> 81421 98662</span>
+                    </div> -->
+                </div>
+            </div>
+            <div class="col d-flex flex-column align-items-center justify-content-center mb-4">
+                <div><img src="bhaktan.png" alt="" class="rounded"></div>
+                <div class="mt-1 ncc-white ncc-bg-green rounded p-2">
+                    <div class="fw-bold">Deepak Gurjar</div>
+                    <div class="ncc-div-fs">
+                        Joint Secretary, Training & Sports
+                    </div>
+                    <!-- <div class="ncc-div-fs">
+                        <span> <i class="fas fa-phone-alt"></i> 77374 50299</span>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showDiv19() {
+            document.getElementById('year21').style.display = "none";
+            document.getElementById('year20').style.display = "none";
+            document.getElementById('year19').style.display = "block";
+            document.getElementById('21').style.backgroundColor = "#189ab4"
+            document.getElementById('20').style.backgroundColor = "#189ab4"
+            document.getElementById('19').style.backgroundColor = "#003665"
+        }
+        function showDiv20() {
+            document.getElementById('year21').style.display = "none";
+            document.getElementById('year19').style.display = "none";
+            document.getElementById('year20').style.display = "block";
+            document.getElementById('21').style.backgroundColor = "#189ab4"
+            document.getElementById('19').style.backgroundColor = "#189ab4"
+            document.getElementById('20').style.backgroundColor = "#003665"
+        }
+        function showDiv21() {
+            document.getElementById('year19').style.display = "none";
+            document.getElementById('year20').style.display = "none";
+            document.getElementById('year21').style.display = "block";
+            document.getElementById('19').style.backgroundColor = "#189ab4"
+            document.getElementById('20').style.backgroundColor = "#189ab4"
+            document.getElementById('21').style.backgroundColor = "#003665"
+        }
+    </script>
 
     <!-- footer starts -->
     <div class="footer ncc-bg-green">
@@ -252,19 +428,25 @@
             <p>+91 72979 55014 <br>+91 98054 95860</p>
         </div>
         <div id="social">
-            <a href="https://www.facebook.com/ncc.iitr" id="logo1" target="_blank" title="NCC IITR Official Facebook Page"><img class="mx-3"
+            <a href="https://www.facebook.com/ncc.iitr" id="logo1" target="_blank"
+                title="NCC IITR Official Facebook Page"><img class="mx-3"
                     onload="this.classList.remove('spinner-grow');" src="facebook.png" width="50px"></a>
-            <a href="https://www.instagram.com/ncc.iitr/" id="logo2" target="_blank" title="NCC IITR Official Instagram Handle"><img class="mx-3"
+            <a href="https://www.instagram.com/ncc.iitr/" id="logo2" target="_blank"
+                title="NCC IITR Official Instagram Handle"><img class="mx-3"
                     onload="this.classList.remove('spinner-grow');" src="instagram.png" width="50px"></a>
-            <a href="https://www.youtube.com/channel/UCrx5OBkbdv5dldJBDXFfJbA" id="logo3" target="_blank" title="The YouTube Channel by NCC IITR"><img class="mx-3"
+            <a href="https://www.youtube.com/channel/UCrx5OBkbdv5dldJBDXFfJbA" id="logo3" target="_blank"
+                title="The YouTube Channel by NCC IITR"><img class="mx-3"
                     onload="this.classList.remove('spinner-grow');" src="youtube.png" width="50px"></a>
             <!-- <a href="#" id="logo4" target="_blank" title="Official Twitter handle of NCC IITR"><img class="mx-3"
                     onload="this.classList.remove('spinner-grow');" src="twitter.png" width="50px"></a> -->
         </div>
         <div class="address">
-            <p>
-                Address:<br> 3 UK CTR NCC, <br>IIT Roorkee - 247667 <br> Email: ncc@iitr.ac.in
-            </p>
+            <div>
+                <h5>Address:</h5>
+                <p>
+                    3 UK CTR NCC, <br>IIT Roorkee - 247667 <br> Email: ncc@iitr.ac.in
+                </p>
+            </div>
         </div>
     </div>
     <!-- footer ends -->

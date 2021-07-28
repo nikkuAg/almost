@@ -131,7 +131,7 @@
   height: 60vh;
   width: 650px;
   margin-left: 180px;
-  background-color: #053D4D;
+  background-color: #05445E;
 }
 /* pledge_1 section heading part */
 .pledge_1 h2{
@@ -180,7 +180,7 @@
    margin-left: 0px;
    margin: auto;
    height: auto;
-   background-color: #507782;
+   background-color: #05445E;
   }
   .aim_0 h2{
     display: flex;
@@ -197,7 +197,7 @@
     width: 100%;
   }
   .part_3{
-    background-color: #507782;
+    background-color: #05445E;
     padding-bottom: 50px;
   }
 }

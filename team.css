@@ -2,7 +2,21 @@
   font-size: 12px;
   font-family: 'Open Sans', sans-serif !important;
 }
-
+.btn{
+  color: #f2f2f2 !important;
+}
+.btn-primary-1{
+  background-color: #189ab4;
+}
+.btn-primary-1:hover{
+  background-color: #003665;
+}
+.btn-primary-2:hover{
+  background-color: #003665;
+}
+.btn-primary-2{
+  background-color: #003665;
+}
 /* Team */
 .cadets{
   margin-top: 130px;
@@ -14,11 +28,13 @@
 .cadets .row .col div{
   width: 240px;
 }
-/*  
-.alumni .row .col img{
-  width: 261px;
-  height: 262px;
-} */
+.teams .row .col img{
+  width: 240px;
+  height: 230px;
+}
+.teams .row .col div{
+  width: 240px;
+}
 
 @media only screen and (min-width:1000px){
   .row1{
@@ -33,11 +49,14 @@
     width: 261px;
     height: 230px;
   }
-  /* .alumni .row .col img{
+  .cadets .row .col div{
+    width: 261px;
+  }
+  .teams .row .col img{
     width: 261px;
     height: 230px;
-  } */
-  .cadets .row .col div{
+  }
+  .teams .row .col div{
     width: 261px;
   }
 }
@@ -48,27 +67,10 @@
 @media only screen and (min-width:530px) and (max-width:570px){
   
 }
-/* @media only screen and (min-width:490px) and (max-width:530px){
-  .cadets h2{
-    margin-left: 105px;
-  }
-  .alumni h2{
-    margin-left: 105px;
-  }
+
+#year19{
+  display: none;
 }
-@media only screen and (min-width:460px) and (max-width:490px){
-  .cadets h2{
-    margin-left: 80px;
-  }
-  .alumni h2{
-    margin-left: 80px;
-  }
+#year20{
+  display: none;
 }
-@media only screen and (min-width:385px) and (max-width:460px){
-  .cadets h2{
-    margin-left: 60px;
-  }
-  .alumni h2{
-    margin-left: 60px;
-  }
-} */

@@ -25,6 +25,22 @@
 .upevents .row .col img:hover{
   box-shadow: 0 10px 10px rgb(154 160 185 / 100%), 0 15px 40px rgb(166 173 201 / 20%);
 }
+.carousel-indicators [data-bs-target]{
+  height: 15px;
+  width: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.carousel-indicators{
+  bottom: -55px;
+  /* left: -173px;
+  right: -173px; */
+}
+.carousel-indicators button{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
 
 @media only screen and (max-width:767px){
   .events .row .col img{
