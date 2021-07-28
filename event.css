@@ -41,7 +41,10 @@
   width: 15px;
   border-radius: 50%;
 }
-
+.carousel-item img{
+  width: 330px;
+  height: 370px;
+}
 @media only screen and (max-width:767px){
   .events .row .col img{
     width: 300px;
