@@ -13,7 +13,9 @@
   font-weight: bolder;
   color: #3F3D56;
 }
-
+.bodypart p{
+  font-family: 'Roboto', sans-serif !important;
+}
 .part_1 .bodypart p{
   display: flex;
   align-items: center;
