@@ -657,6 +657,9 @@
     padding-right: 10px;
     padding-left: 10px;
   }
+  .part_2{
+    margin-right: 7px;
+  }
   
   .part_2 h3{
     display: flex;
@@ -719,6 +722,9 @@
   .part_1 .bodypart{
     padding-right: 10px;
     padding-left: 10px;
+  }
+  .part_2{
+    margin-right: 5px;
   }
   
   .part_2 h3{
@@ -787,6 +793,10 @@
 
 }
 @media only screen and (min-width:300px) and (max-width:320px){
+  .part_2 h2 {
+    font-size: 23px;
+    }
+
   .part_2  .part_2_1 h3 img{
     margin-left: 50px;
   }
@@ -803,7 +813,7 @@
     margin-right: 50px;
   }
   .part_2 .part_2_5 h3, .part_2 .part_2_4 h3, .part_2 .part_2_3 h3, .part_2 .part_2_2 h3, .part_2 .part_2_1 h3 {
-    font-size: 23px;
+    font-size: 18px;
   }
   .part_2 .spic{
     width: 150px;
