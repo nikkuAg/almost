@@ -748,7 +748,7 @@
     margin-right: 60px;
   }
   .part_2 .part_2_5 h3, .part_2 .part_2_4 h3, .part_2 .part_2_3 h3, .part_2 .part_2_2 h3, .part_2 .part_2_1 h3 {
-    font-size: 25px;
+    font-size: 16px;
   }
   .part_2 .spic{
     width: 150px;
@@ -813,7 +813,7 @@
     margin-right: 50px;
   }
   .part_2 .part_2_5 h3, .part_2 .part_2_4 h3, .part_2 .part_2_3 h3, .part_2 .part_2_2 h3, .part_2 .part_2_1 h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
   .part_2 .spic{
     width: 150px;
@@ -837,4 +837,13 @@
   }
 
 
+}
+@media only screen and (min-width:300px) and (max-width:425px){
+
+.part_1 .bodypart {
+    border-radius: 0px;
+}
+.part_2 h2{
+  font-size: 18px;
+}
 }
