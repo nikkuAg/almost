@@ -525,3 +525,12 @@
     margin-bottom: 50px;
   }
 }
+@media only screen and (min-width:300px) and (max-width:340px){
+  .carousel-inner{
+    margin-bottom: 10px;
+  }
+  .carousel-indicators
+  {
+    margin-bottom: 0px;
+  }
+}
