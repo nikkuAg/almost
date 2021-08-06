@@ -28,7 +28,7 @@
   .navbar{
     position: fixed;
     top: 0;
-    height: 11vh !important;
+    /* height: 11vh !important; */
     z-index: 5;
   }
   /* NCC and IITR Logo */

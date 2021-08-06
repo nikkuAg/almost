@@ -1,7 +1,7 @@
 /* body */
 /* body part 1 starts */
 .part_1{
-  padding-top: 17vh;
+  /* padding-top: 17vh; */
 }
 .part_1 h2{
   display: flex;
