@@ -452,6 +452,50 @@
     margin-right: 2%;
   }
 }
+@media only screen and (min-width:1024px) and (max-width:1300px){
+  .carousel-inner .carousel-item img {
+    height: 700px;
+    margin-top: 200px;
+}
+.carousel-indicators {
+  margin-bottom: 9rem;
+}
+.aim_0{
+  text-align: justify;
+}
+.aim_1 img{
+    height: 450px;
+    margin-bottom: 400px;
+    margin-left: 100px;
+}
+  .col-lg-4 {
+    width: 40%;
+}
+.col-lg-6 {
+  width: 50%;
+}
+.pledge_0{
+  height: 420px;
+}
+.pledge_0 img{
+  margin-bottom: 20px;
+  height: 370px;
+  padding-left: 100px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.col-lg-7 {
+  width: 50%;
+}
+.pledge_1 {
+  margin-top: 15px;
+  height: 400px;
+  background-color: #05445E;
+}
+.pledge_1 p{
+  text-align: justify;
+}
+}
 @media only screen and (min-width:600px) and (max-width:768px){
   .part_1,.part_2, .part_3{
     overflow-x: hidden;
