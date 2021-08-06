@@ -1,0 +1,450 @@
+/* Background color */
+.ncc-bg-green{
+    background-color: #003665;
+  }
+  .ncc-bg-green-1{
+    background-color: #05445E;
+  }
+  .ncc-fw-600{
+    font-weight: 600;
+  }
+  /* color  */
+  .ncc-white{
+    color: #f2f2f2;
+  }
+  
+  * {
+      transition: 0.5s all;
+      outline: none !important;
+      font-family: 'Roboto', sans-serif;
+    }
+    /* body  */
+    body{
+      margin: 0;
+      padding: 0 !important;
+      overflow: auto !important;
+      width: auto;
+    }
+    .navbar{
+      position: fixed;
+      top: 0;
+      height: 13vh !important;
+      z-index: 5;
+    }
+    /* NCC and IITR Logo */
+    .logo .logoncc {
+      width: 60px;
+      margin-top: -10px;
+      height: 80px;
+      margin-left: 10px;
+    }
+    .logo .logoiitr1{
+      width: 73px;
+      margin-top: 2px;
+    }
+    /* Menu  */
+    .menu ul li {
+      font-size: 20px;
+      font-weight: 500;
+      display: inline-block;
+    }
+    .menu ul li a {
+      color: #f2f2f2;
+      text-decoration: none;
+      padding: 5px 20px;
+    }
+    .menu ul li a:hover, .active1{
+      color: #f2f2f2 !important;
+      padding: 5px 20px;
+      background-color: #189ab4;
+      text-decoration: none;
+      border-radius: 10px;
+    }
+    /* IITR Logo 2 */
+    .logoiitr2 {
+      margin-right: 15px;
+      padding-top: 7px;
+    }
+    .logoiitr2 img{
+      margin-top: -2px;
+      width: 72px;
+    }
+    /* Hamburger */
+    .hamburger-menu {
+      display: none;
+    }
+    #menu__toggle {
+      opacity: 0;
+    }
+    /* If want to change the hamburger icon to cross icon */
+    #menu__toggle:checked ~ .menu__btn > span {
+      transform: rotate(45deg);
+    }
+    #menu__toggle:checked ~ .menu__btn > span::before {
+      top: 0;
+      transform: rotate(0);
+    }
+    #menu__toggle:checked ~ .menu__btn > span::after {
+      top: 0;
+      transform: rotate(90deg);
+    }
+    #menu__toggle:checked ~ .menu__box {
+      visibility: visible;
+      right: 0;
+    }
+    .menu__btn {
+      display: flex;
+      align-items: center;
+      position: fixed;
+      top: 3.5vh;
+      right: 20px;
+      width: 26px;
+      height: 26px;
+      cursor: pointer;
+      z-index: 1;
+      margin-top: 9px;
+    }
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: white;
+      transition-duration: .25s;
+    }
+    .menu__btn > span::before { 
+      content: '';
+      top: -8px;
+    }
+    .menu__btn > span::after {
+      content: '';
+      top: 8px;
+    }
+    /* Hamburger Menu Box  */
+    .menu__box {
+      display: block;
+      position: fixed;
+      visibility: hidden;
+      top: 0;
+      right: -100%;
+      width: 250px;
+      height: 400px;
+      margin: 0;
+      padding: 80px 0;
+      list-style: none;
+      background-color: #003665;
+      box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+      transition-duration: .25s;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 10px;
+    }
+    .menu__item {
+      display: block;
+      padding: 7px 24px;
+      color: #FFFFFF;
+      font-family: 'Nimbus Sans', sans-serif;
+      font-size: 20px;
+      text-decoration: none;
+      transition-duration: .25s;
+    }
+    .menu__item:hover {
+      background-color: #189AB4;
+      color: #F2F2F2;
+    }
+  
+  /* footer part starts */
+  /* Contact  */
+  .contact{
+    /* margin-left: 30px; */
+    /* margin-top: 20px; */
+  }
+  /* Social  */
+  #social{
+    /* display: flex; */
+    /* height: 75px; */
+    /* padding-top: 20px; */
+  }
+  a#logo1:hover>img,
+  a#logo2:hover>img,
+  a#logo3:hover>img,
+  a#logo4:hover>img,
+  a#logo5:hover>img {
+    transform: scale(1.0);
+  }
+  a#logo1:hover>img {
+    background: rgb(0, 89, 255);
+  }
+  
+  a#logo2:hover>img {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  }
+  a#logo3:hover>img {
+    background: #c4302b;
+  }
+  a#logo4:hover>img {
+    background: #00acee;
+  }
+  a#logo5:hover>img {
+    background: #0e76a8;
+  }
+  #logo1,
+  #logo2,
+  #logo3,
+  #logo4,
+  #logo5 {
+    padding: 20px;
+  }
+  a#logo1>img,
+  a#logo2>img,
+  a#logo3>img,
+  a#logo4>img,
+  a#logo5>img {
+    border-radius: 50%;
+    background: transparent;
+  }
+  /* Address  */
+  .address{
+    /* margin-right: 30px; */
+    /* margin-top: 20px; */
+  }
+  /* footer part ends */
+  
+  
+  
+  /* media query part */
+  /* For Mobile View  */
+  @media only screen and (max-width:779px) {
+    /* .logoncc{
+      width: 60px;
+    } */
+    .menu {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+    /* .menu__btn{
+      margin-top: 10px;
+    } */
+    .logoiitr1{
+      margin-bottom: 5px !important;
+    }
+  
+    .logoiitr2 {
+        display: none;
+    }
+    /* .footer-container{
+      flex-direction: column;
+      align-items: center;
+    } */
+    .contact{
+      margin-left: 0px;
+      margin-top: 10px;
+      /* text-align: center; */
+    }
+    .contact h4{
+      font-size: 20px;
+    }
+    .contact p{
+      font-size: 20px;
+    }
+    #social {
+      display: flex;
+      justify-content: space-evenly;
+      /* align-items: center; */
+      padding: 5px;
+    }
+    .address{
+      margin-right: 0px;
+      margin-top: 10px;
+      /* text-align: center; */
+    }
+    .address p{
+      font-size: 20px;
+    }
+  }
+  
+  
+  @media only screen and (min-width:779px) and (max-width:910px) {
+    .logoiitr1 {
+        display: none;
+    }
+    .logoiitr2 {
+      margin-bottom: 15px; 
+    }
+    #social #logo1, #logo2, #logo3, #logo4, #logo5 {
+      padding-top: 20px;
+    }
+    #social{
+      padding: 30px 2px;
+    }
+    #social img{
+      width: 40px;
+    }
+    .contact{
+      margin-left: 3px;
+      padding: 0px 10px;
+    }
+    .contact h4{
+      font-size: 20px;
+    }
+    .contact p{
+      font-size: 16px;
+    }
+    .address{
+      margin-right: 8px;
+    }
+    .address p{
+      font-size: 18px;
+    }
+    
+  }
+  /* For window View */
+  @media only screen and (min-width:779px) {
+    .logoiitr1 {
+        display: none;
+    }
+    .logoiitr2 {
+      margin-bottom: 15px;
+  }
+    .hamburger-menu{
+      display: none;
+    }
+    .menu{
+      position: absolute;
+      left: 70px;
+    }
+  }
+  
+  @media only screen and (min-width:400px) and (max-width:500px){
+    .pledge_1 p{
+      font-size: small;
+      margin-top: 20px;
+    }
+    .pledge_1 h2{
+      font-size: large;
+      margin-top: 0px;
+    }
+    .pledge_0 img{
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+    .aim_0 h2{
+      font-size: large;
+    }
+    .aim_0 p, .aim_0 ul{
+      font-size: small;
+    }
+    .aim_1{
+      height: 50vh;
+    }
+    #logo1,
+    #logo2,
+    #logo3,
+    #logo4,
+    #logo5 {
+      padding: 10px;
+    }
+    .contact h4{
+      font-size: 17px;
+    }
+    .contact p{
+      font-size: 17px;
+    }
+    .address p{
+      font-size: 17px;
+    }
+  }
+  @media only screen and (min-width:300px) and (max-width:400px){
+    .pledge_1 p{
+      font-size: smaller;
+    }
+    .pledge_1 h2{
+      font-size: large;
+      margin-top: 0PX;
+    }
+    .aim_0 h2{
+      font-size: medium;
+    }
+    .aim_0 p, .aim_0 ul{
+      font-size: smaller;
+    }
+    .aim_1{
+      height: 50vh;
+    }
+  
+    .pledge_0 {
+      margin-top: 0px;
+    }
+    .pledge_1 p{
+      margin-top: 30px;
+    }
+    .contact h4{
+      font-size: 15px;
+    }
+    .contact p{
+      font-size: 15px;
+    }
+    .address p{
+      font-size: 15px;
+    }
+   
+  
+  }
+  @media only screen and (min-width:300px) and (max-width:341px){
+  #social{
+      display: flex;
+      justify-content: space-evenly;
+      /* align-items: center;  */
+      padding: 0px;
+      height: 50px;
+  }
+    #logo1,
+    #logo2,
+    #logo3,
+    #logo4,
+    #logo5 {
+      padding: 0px;
+    }
+    .aim_1 img{
+      width: 90%;
+    }
+    #social img{
+      width: 40px;
+    }
+  
+  }
+  @media only screen and (min-width:340px) and (max-width:400px){
+    #logo1,
+    #logo2,
+    #logo3,
+    #logo4,
+    #logo5 {
+      padding: 0px;
+    }
+    .aim_1 img{
+      width: 90%;
+    }
+    .pledge_0 img{
+      padding-left: 90px;
+    }
+    .contact p{
+      margin-bottom: 0px;
+    }
+    #social{
+      padding: 0px;
+      height: 60px;
+      padding-top: 10px;
+    }
+    #social img{
+      width: 45px;
+    }
+  }
+  @media only screen and (max-width:779px) {
+    .logo .logoncc {
+      margin-top: 0px;
+  }
+    
+  }
