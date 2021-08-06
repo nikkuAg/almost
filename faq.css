@@ -1,12 +1,12 @@
 /* footer */
-.footer{
+/* .footer{
   display: flex;
   justify-content: space-between;
   background-color: #A2A2A6;
-}
+} */
 
 /* Contact  */
-
+/* 
 .contact{
   margin-left: 30px;
   margin-top: 20px;
@@ -16,7 +16,7 @@
   font-weight: 600;
 }
 
-/* Social  */
+Social 
 
 #social{
   display: flex;
@@ -69,7 +69,7 @@ a#logo5>img {
   background: transparent;
 }
 
-/* Address  */
+Address 
 
 .address{
   margin-right: 30px;
@@ -78,7 +78,7 @@ a#logo5>img {
 
 .address p{
   font-weight: 600;
-}
+} */
 
 /* For Mobile View  */
 @media only screen and (max-width:779px) {
@@ -93,7 +93,7 @@ a#logo5>img {
   .logoiitr2 {
       display: none;
   }
-  .footer{
+  /* .footer{
     flex-direction: column;
     align-items: center;
   }
@@ -121,14 +121,14 @@ a#logo5>img {
   }
   .address p{
     font-size: 20px;
-  }
+  } */
 }
 
 @media only screen and (min-width:779px) and (max-width:910px) {
   .logoiitr1 {
       display: none;
   }
-  #social #logo1, #logo2, #logo3, #logo4, #logo5 {
+  /* #social #logo1, #logo2, #logo3, #logo4, #logo5 {
     padding-top: 20px;
   }
   #social{
@@ -152,7 +152,7 @@ a#logo5>img {
   }
   .address p{
     font-size: 18px;
-  }
+  } */
 }
 /* For window View */
 @media only screen and (min-width:779px) {
@@ -167,8 +167,8 @@ a#logo5>img {
     left: 90px;
   }
 }
-@media only screen and (min-width:400px) and (max-width:500px){
-  #logo1,
+/* @media only screen and (min-width:400px) and (max-width:500px){
+   #logo1,
   #logo2,
   #logo3,
   #logo4,
@@ -177,19 +177,19 @@ a#logo5>img {
   }
 }
 @media only screen and (min-width:300px) and (max-width:341px){
-  #social{
+   #social{
     display: flex;
     justify-content: space-evenly;
     align-items: center; 
     padding: 0px;
   }
-  #logo1,
+   #logo1,
   #logo2,
   #logo3,
   #logo4,
   #logo5 {
     padding: 0px;
-  }
+  } 
 }
 @media only screen and (min-width:340px) and (max-width:400px){
   #logo1,
@@ -199,7 +199,7 @@ a#logo5>img {
   #logo5 {
     padding: 0px;
   }
-}
+}*/
 
 /* FAQS */
 

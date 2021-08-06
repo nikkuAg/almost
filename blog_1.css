@@ -36,13 +36,13 @@
   
   
   
-  /* footer part starts */
+  /* footer part starts
   .footer{
     display: flex;
     justify-content: space-between;
     background-color: #A2A2A6; 
   }
-  /* Contact  */
+  /* Contact 
   .contact{
     margin-left: 30px;
     margin-top: 20px;
@@ -50,7 +50,7 @@
   .contact p{
     font-weight: 600;
   }
-  /* Social  */
+  /* Social 
   #social{
     display: flex;
     height: 75px;
@@ -94,7 +94,7 @@
     border-radius: 50%;
     background: transparent;
   }
-  /* Address  */
+  /* Address 
   .address{
     margin-right: 30px;
     margin-top: 20px;
@@ -125,7 +125,7 @@
     .logoiitr2 {
         display: none;
     }
-    .footer{
+    /* .footer{
       flex-direction: column;
       align-items: center;
     }
@@ -153,7 +153,7 @@
     }
     .address p{
       font-size: 20px;
-    }
+    } */
   }
   
   
@@ -164,7 +164,7 @@
     .logoiitr2 {
       margin-bottom: 15px; 
     }
-    #social #logo1, #logo2, #logo3, #logo4, #logo5 {
+    /* #social #logo1, #logo2, #logo3, #logo4, #logo5 {
       padding-top: 20px;
     }
     #social{
@@ -188,7 +188,7 @@
     }
     .address p{
       font-size: 18px;
-    }
+    } */
     
   }
   /* For window View */
@@ -211,7 +211,7 @@
   /* for main home page */
   
   
-  
+/*   
   @media only screen and (min-width:400px) and (max-width:500px){
     #logo1,
     #logo2,
@@ -240,9 +240,9 @@
     .address p{
       font-size: 15px;
     }
-  }
+  } */
   @media only screen and (min-width:300px) and (max-width:341px){
-  #social{
+  /* #social{
       display: flex;
       justify-content: space-evenly;
       align-items: center; 
@@ -258,13 +258,13 @@
     }
     #social img{
       width: 40px;
-    }
+    } */
     .part_2 , .part_3,.part_1{
       overflow-x: hidden;
     }
   }
   @media only screen and (min-width:340px) and (max-width:400px){
-    #logo1,
+    /* #logo1,
     #logo2,
     #logo3,
     #logo4,
@@ -281,7 +281,7 @@
     }
     #social img{
       width: 45px;
-    }
+    } */
     .part_1{
         overflow-x: hidden;
     }
