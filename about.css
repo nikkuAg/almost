@@ -659,8 +659,8 @@
     font-size: 23px;
   }
   .part_1 .bodypart{
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   .part_2{
     margin-right: 7px;
@@ -727,8 +727,8 @@
     width: 100%;
   }
   .part_1 .bodypart{
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   .part_2{
     margin-right: 5px;
@@ -845,8 +845,15 @@
 
 .part_1 .bodypart {
     border-radius: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 14px;
 }
 .part_2 h2{
   font-size: 23px;
+}
+.part_2{
+  margin-right: 5px;
+  margin-left: 3px;
 }
 }
