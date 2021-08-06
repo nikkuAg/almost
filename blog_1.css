@@ -9,6 +9,7 @@
       justify-content: center;
       align-items: center;
       font-size: 30px;
+      margin-top: 100px;
   }
   .part_1 hr{
       width: 86%;
@@ -241,6 +242,11 @@
       font-size: 15px;
     }
   } */
+  @media only screen  and (min-width:300px) and (max-width: 400px){
+    .part_1 h1{
+      margin-top: 4vh;
+    }
+  }
   @media only screen and (min-width:300px) and (max-width:341px){
   /* #social{
       display: flex;
