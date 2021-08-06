@@ -197,6 +197,10 @@ a#logo5>img {
   border-radius: 50%;
   background: transparent;
 }
+.px-5{
+  padding-right: 1.5rem!important;
+  padding-left: 1.5rem!important;
+}
 /* media query part */
 @media only screen and (max-width:1075px) {
 .logo-social{
