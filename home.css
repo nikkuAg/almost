@@ -427,6 +427,13 @@
   position: absolute;
   right: 5%;
   }
+}
+@media only screen and (min-width:1425px){
+  .aim_1 img{
+    padding-left: 200px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
 
 }
 
