@@ -28,7 +28,7 @@
   .navbar{
     position: fixed;
     top: 0;
-    height: 13vh !important;
+    /* height: 13vh !important; */
     z-index: 5;
   }
   /* NCC and IITR Logo */
@@ -156,9 +156,46 @@
 
 /* footer part starts */
 
-.logo-social{
-  width: 50px;
+#title_footer{
+  display: inline-block;
+  position: relative;
+  font-size: 1.4rem;
+  padding: 1px;
+}  
+#title_footer:before {
+  content: "";
+  position: absolute;
+  width: 25%;
+  bottom: 0;
+  border-bottom: 1px solid white;
 }
+#content{
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 768px) {
+  #title_footer:before{
+      width: 50%;
+  }
+}
+
+
+.logo-social{
+  /* width: 50px; */
+  width: 15%;
+  background-color: #003665;
+}
+
+a#logo1>img,
+a#logo2>img,
+a#logo3>img,
+a#logo4>img,
+a#logo5>img {
+  border-radius: 50%;
+  background: transparent;
+  transition: all 0.75s;
+}
+
 a#logo1:hover>img,
 a#logo2:hover>img,
 a#logo3:hover>img,
@@ -176,27 +213,20 @@ a#logo2:hover>img {
 a#logo3:hover>img {
   background: #c4302b;
 }
-a#logo4:hover>img {
+/* a#logo4:hover>img {
   background: #00acee;
 }
 a#logo5:hover>img {
   background: #0e76a8;
-}
-#logo1,
+} */
+/* #logo1,
 #logo2,
 #logo3,
 #logo4,
 #logo5 {
-  padding: 20px;
-}
-a#logo1>img,
-a#logo2>img,
-a#logo3>img,
-a#logo4>img,
-a#logo5>img {
-  border-radius: 50%;
-  background: transparent;
-}
+   padding: 20px;
+} */
+
 .px-5{
   padding-right: 1rem!important;
   padding-left: 1.5rem!important;
