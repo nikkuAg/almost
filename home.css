@@ -662,6 +662,9 @@
 .part_1,.part_2,.part_3{
   overflow-x: hidden;
 }
+.part_2,.part_3{
+  overflow-y: hidden;
+}
 } 
 @media only screen and (min-width:990px) and (max-width:1010px) and (min-height:550px)  {
   .carousel-inner .carousel-item img {
