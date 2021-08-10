@@ -446,6 +446,9 @@
     width: 500px;
     margin: auto;
 }
+.part_1,.part_2,.part_3{
+  overflow-x: hidden;
+}
 }
 @media only screen and (min-width:768px) and (max-width:1024px) and (min-height:618px) {
   .carousel-inner .carousel-item img {
@@ -454,6 +457,9 @@
     height: 500px;
     width: 470px;
     margin: auto;
+}
+.part_1,.part_2,.part_3{
+  overflow-x: hidden;
 }
 }
 @media only screen and (min-width:425px) and (max-width:768px) and (min-height:618px) {
@@ -464,6 +470,9 @@
     width: 350px;
     margin: auto;
 }
+.part_1,.part_2,.part_3{
+  overflow-x: hidden;
+}
 }
 @media only screen and (min-width:375px) and (max-width:425px) and (min-height:618px) {
   .carousel-inner .carousel-item img {
@@ -473,13 +482,18 @@
     width: 350px;
     margin: auto;
 }
+.part_1,.part_2,.part_3{
+  overflow-x: hidden;
+}
 
 }
 @media only screen and (min-width:375px) and (max-width:425px) and (height:812px) {
 .part_1,.part_2,.part_3{
   overflow-x: hidden;
 }
-
+.part_1,.part_2,.part_3{
+  overflow-x: hidden;
+}
 }
 @media only screen and (min-width:300px) and (max-width:375px) and (min-height:618px) {
   .carousel-inner .carousel-item img {
@@ -489,7 +503,9 @@
     width: 300px;
     margin: auto;
 }
-
+.part_1,.part_2,.part_3{
+  overflow-x: hidden;
+}
 } 
 @media only screen and (min-width:300px) and (max-width:375px) and (min-height:568px) {
   .carousel-inner .carousel-item img {
@@ -498,6 +514,9 @@
     height: 500px;
     width: 300px;
     margin: auto;
+}
+.part_1,.part_2,.part_3{
+  overflow-x: hidden;
 }
 
 } 
@@ -511,6 +530,9 @@
     margin-right: auto;
     margin-left: auto;
 }
+.part_1,.part_2,.part_3{
+  overflow-x: hidden;
+}
 } 
 @media only screen and (min-width:425px) and (max-width:600px) and (min-height:727px)  {
   .carousel-inner .carousel-item img {
@@ -522,6 +544,9 @@
     margin-right: auto;
     margin-left: auto;
 }
+.part_1,.part_2,.part_3{
+  overflow-x: hidden;
+}
 } 
 @media only screen and (min-width:375px) and (max-width:425px) and (min-height:727px)  {
   .carousel-inner .carousel-item img {
@@ -530,6 +555,9 @@
     height: 600px;
     width: 350px;
     margin: auto;
+}
+.part_1,.part_2,.part_3{
+  overflow-x: hidden;
 }
 } 
 @media only screen and (min-width:300px) and (max-width:375px) and (min-height:727px)  {
@@ -554,6 +582,9 @@
     padding-top: 50px;
     margin-top: 50px;
 }
+.part_1,.part_2,.part_3{
+  overflow-x: hidden;
+}
 
 } 
 @media only screen and (min-width:768px) and (max-width:1024px) and (min-height:1024px)  {
@@ -571,6 +602,9 @@
   margin-bottom: 3rem;
 
 }
+.part_1,.part_2,.part_3{
+  overflow-x: hidden;
+}
 } 
 @media only screen and (min-width:768px) and (max-width:1024px) and (min-height:1280px)  {
   .carousel-inner .carousel-item img {
@@ -583,9 +617,10 @@
     margin-top: 150px;
 }
 .carousel-indicators {
-  
   margin-bottom: 3rem;
-
+}
+.part_1,.part_2,.part_3{
+  overflow-x: hidden;
 }
 } 
 @media only screen and (min-width:1024px) and (max-width:1100px) and (min-height:1360px)  {
@@ -624,4 +659,22 @@
   margin-top: 0px;
   margin-bottom: 110px;
 }
+.part_1,.part_2,.part_3{
+  overflow-x: hidden;
+}
+} 
+@media only screen and (min-width:990px) and (max-width:1010px) and (min-height:550px)  {
+  .carousel-inner .carousel-item img {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    height: 450px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 00px;
+}
+.carousel-indicators {
+  margin-bottom: 1rem;
+}
+
 } 
