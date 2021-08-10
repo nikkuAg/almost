@@ -13,8 +13,8 @@
 
 .carousel-inner .carousel-item img{
   padding-top: 50px;
-  height: 350px;
-  width: 350px;
+  height: 370px;
+  width: auto;
   margin: auto;
 }
 .carousel-control-prev-icon , .carousel-control-next-icon{
