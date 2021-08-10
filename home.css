@@ -666,7 +666,7 @@
   overflow-y: hidden;
 }
 } 
-@media only screen and (min-width:990px) and (max-width:1010px) and (min-height:550px)  {
+/* @media only screen and (min-width:990px) and (max-width:1010px) and (min-height:550px)  {
   .carousel-inner .carousel-item img {
     padding-top: 50px;
     padding-bottom: 30px;
@@ -680,4 +680,4 @@
   margin-bottom: 1rem;
 }
 
-} 
+}  */
