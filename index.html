@@ -8,8 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrapcss.css">
 
     <!-- Home Page CSS  -->
     <link rel="stylesheet" href="home.css">
@@ -29,7 +28,7 @@
 <body>
     <!-- Navbar part starts -->
     <div class="navbar w-100 ncc-bg-green pb-0">
-        <div class="logo ms-2">
+        <div class="logo ms-2 ps-2">
             <a href="index.html"><img src="NCC_1.png" alt="" class="logoncc"></a>
             <a href="https://www.iitr.ac.in/" target="_blank"><img src="nccwhite.png" alt="" class="logoiitr1 mb-3"></a>
         </div>
@@ -45,7 +44,7 @@
             </ul>
         </div>
         <!-- IITR Logo 2 -->
-        <div class="logoiitr2">
+        <div class="logoiitr2 pe-3">
             <a href="https://www.iitr.ac.in/" target="_blank"><img src="nccwhite.png" alt="" id="iitrlogo"></a>
         </div>
 
@@ -70,48 +69,51 @@
     <!-- navbar part end -->
 
     <!-- body part 1 starts -->
-    <div id="carouselExampleIndicators" class="carousel slide part_1" data-bs-ride="carousel" data-bs-touch="true">
-        <div class="carousel-indicators">
+    <div class="mt-5 pt-4">
+        <div id="carouselExampleIndicators" class="carousel slide part_1 mt-0" data-bs-ride="carousel"
+            data-bs-touch="true">
+            <div class="carousel-indicators">
 
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
 
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image_1.jpg" class="d-block" alt="image_1">
+                </div>
+                <div class="carousel-item">
+                    <img src="image_2.jpg" class="d-block" alt="image_2">
+                </div>
+                <div class="carousel-item">
+                    <img src="image_3.jpg" class="d-block" alt="image_3">
+                </div>
+                <div class="carousel-item">
+                    <img src="image_4.JPG" class="d-block" alt="image_3">
+                </div>
+                <div class="carousel-item">
+                    <img src="image_5.JPG" class="d-block" alt="image_3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="image_1.jpg" class="d-block" alt="image_1">
-            </div>
-            <div class="carousel-item">
-                <img src="image_2.jpg" class="d-block" alt="image_2">
-            </div>
-            <div class="carousel-item">
-                <img src="image_3.jpg" class="d-block" alt="image_3">
-            </div>
-            <div class="carousel-item">
-                <img src="image_4.JPG" class="d-block" alt="image_3">
-            </div>
-            <div class="carousel-item">
-                <img src="image_5.JPG" class="d-block" alt="image_3">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
 
     <!-- body part 1 ends -->
@@ -131,23 +133,23 @@
                     <!-- heading AIM -->
                     <h2 style="font-family: Roboto;">AIM</h2>
                     <!-- aim paragraph  -->
-                    <p style="font-family: Open Sans;">
+                    <p style="font-family: Open Sans; text-align: justify;">
                         The Aims of the NCC laid out in 1988 have stood the test
                         of time and continue to meet the requirements expected of
                         it in the current socio–economic scenario of the country.
                     </p>
                     <!-- aim list -->
                     <ul style="font-family: Open Sans;">
-                        <li>
+                        <li style="text-align: justify;">
                             To Create a Human Resource of Organized, Trained and Motivated Youth,
                             To Provide Leadership in all Walks of life and be Always Available for the Service of the
                             Nation.
                         </li>
-                        <li>
+                        <li style="text-align: justify;">
                             To Provide a Suitable Environment to Motivate the Youth to Take Up a Career in the Armed
                             Forces.
                         </li>
-                        <li>
+                        <li style="text-align: justify;">
                             To Develop Character, Comradeship, Discipline, Leadership,
                             Secular Outlook, Spirit of Adventure, and Ideals of Selfless Service amongst the Youth of
                             the Country.
@@ -160,6 +162,7 @@
                 </div>
             </div>
         </div>
+    </div>
         <!-- pledge part starts -->
         <div class="part_3">
             <div class="container">
@@ -190,7 +193,7 @@
         <div class="footer ncc-bg-green ncc-white pt-4">
             <div class="row w-100">
                 <div class="col-lg-3 py-2 px-3">
-                    <div class="container d-flex flex-column text-left">
+                    <div class="container d-flex flex-column text-left ms-lg-2">
                         <span id="title_footer" class="col-xg-5">
                             Contact Us:
                         </span>
@@ -208,99 +211,61 @@
                             Website Links:
                         </span>
                         <span style="align-self: flex-start;" class="pt-3">
-                            <a href="https://indiancc.nic.in/" target="_blank" id="content" class="text-decoration-none ncc-white">
+                            <a href="https://indiancc.nic.in/" target="_blank" id="content"
+                                class="text-decoration-none ncc-white">
                                 NCC Official
                             </a>
                         </span>
-                        <span style="align-self: flex-start;" >
-                            <a href="https://www.iitr.ac.in/" target="_blank" id="content" class="py-1 text-decoration-none ncc-white">
+                        <span style="align-self: flex-start;">
+                            <a href="https://www.iitr.ac.in/" target="_blank" id="content"
+                                class="py-1 text-decoration-none ncc-white">
                                 IIT Roorkee
                             </a>
                         </span>
                     </div>
                 </div>
-                <div class="col-lg-3 py-2 px-3">
-                    <div class="container d-flex flex-column">
+                <div class="col-lg-4 py-2 px-3">
+                    <div class="container d-flex flex-column social-cont">
                         <span id="title_footer" class="col-xg-6">
                             Social Media:
                         </span>
                         <div class="pt-2">
-                            <a href="https://www.facebook.com/ncc.iitr" id="logo1" target="_blank" title="NCC IITR Official Facebook Page">
-                                <img class="mx-2 mt-1 logo-social" onload="this.classList.remove('spinner-grow');" src="facebook.png"></a>
-                            <a href="https://www.instagram.com/ncc.iitr/" id="logo2" target="_blank" title="NCC IITR Official Instagram Handle">
-                                <img class="mx-2 mt-1 logo-social" onload="this.classList.remove('spinner-grow');" src="instagram.png"></a>
-                            <a href="https://www.youtube.com/channel/UCrx5OBkbdv5dldJBDXFfJbA" id="logo3" target="_blank" title="The YouTube Channel by NCC IITR">
-                                <img class="mx-2 mt-1 logo-social" onload="this.classList.remove('spinner-grow');" src="youtube.png"></a>
+                            <a href="https://www.facebook.com/ncc.iitr" id="logo1" target="_blank"
+                                title="NCC IITR Official Facebook Page">
+                                <img class="mx-2 mt-1 logo-social" onload="this.classList.remove('spinner-grow');"
+                                    src="facebook.png"></a>
+                            <a href="https://www.instagram.com/ncc.iitr/" id="logo2" target="_blank"
+                                title="NCC IITR Official Instagram Handle">
+                                <img class="mx-2 mt-1 logo-social" onload="this.classList.remove('spinner-grow');"
+                                    src="instagram.png"></a>
+                            <a href="https://www.youtube.com/channel/UCrx5OBkbdv5dldJBDXFfJbA" id="logo3" target="_blank"
+                                title="The YouTube Channel by NCC IITR">
+                                <img class="mx-2 mt-1 logo-social" onload="this.classList.remove('spinner-grow');"
+                                    src="youtube.png"></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 py-2 px-3">
-                    <div class="container d-flex flex-column">
+                <div class="col-lg-2 py-2 ps-lg-5 px-3 pe-lg-0">
+                    <div class="d-flex flex-column ps-lg-4 container">
                         <span id="title_footer" class="col-xg-4">
                             Address:
                         </span>
-                        <p id="content" class="col col-lg-8 col-xg-11 col-xm-11 pt-3">
+                        <p id="content" class="pt-3">
                             3 UK CTR NCC,<br>IIT Roorkee - 247667
                             <br>Email: ncc@iitr.ac.in
                         </p>
                     </div>
                 </div>
             </div>
-            <p class="d-flex align-items-center justify-content-center pb-1 mb-0" id="content"> ©Copyright 2021 - NCC IIT Roorkee</p>
-            </div>
-        <!-- <div class="container-fluid px-5">
-                <div class="row g-0">
-                    <div class="col-md-2 my-2 contact d-flex">
-                        <div>
-                            <h5>Contact Us:</h5>
-                            <p class="ncc-15">+91 72979 55014 <br>+91 98054 95860</p>
-                        </div>
-                    </div>
-                    <div class="col-md-2 my-2 address d-flex ps-3">
-                        <div>
-                            <h5>Address:</h5>
-                            <p class="ncc-15">
-                                3 UK CTR NCC, <br>IIT Roorkee - 247667 <br> Email: ncc@iitr.ac.in
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-5 ps-lg-5 d-flex align-items-center justify-content-center my-2 social"
-                        style="margin-left: -5px;">
-                        <div>
-                            <a href="https://www.facebook.com/ncc.iitr" id="logo1" target="_blank"
-                                title="NCC IITR Official Facebook Page"><img class="mx-3 logo-social"
-                                    onload="this.classList.remove('spinner-grow');" src="facebook.png"></a>
-                        </div>
-                        <div>
-                            <a href="https://www.instagram.com/ncc.iitr/" id="logo2" target="_blank"
-                                title="NCC IITR Official Instagram Handle"><img class="mx-3 logo-social"
-                                    onload="this.classList.remove('spinner-grow');" src="instagram.png"></a>
-                        </div>
-                        <div>
-                            <a href="https://www.youtube.com/channel/UCrx5OBkbdv5dldJBDXFfJbA" id="logo3"
-                                target="_blank" title="The YouTube Channel by NCC IITR"><img class="mx-3 logo-social"
-                                    onload="this.classList.remove('spinner-grow');" src="youtube.png"></a>
-                        </div>
-                    </div>
-                    <div class="col-md-3 my-2 imp d-flex pt-3 pt-sm-2 p-md-0 p-lg-0 justify-content-end">
-                        <div class="imp-link">
-                            <h5 class="">Important Links</h5>
-                            <p class="ncc-15"><a class="ncc-white text-decoration-none"
-                                    href="https://indiancc.nic.in/" target="_blank">https://indiancc.nic.in/</a><br>
-                                <a class="ncc-white text-decoration-none"
-                                    href="https://www.iitr.ac.in/" target="_blank">https://www.iitr.ac.in/</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-        
+            <p class="d-flex align-items-center justify-content-center pb-1 mb-0" id="content"> ©Copyright 2021 - NCC IIT
+                Roorkee</p>
+        </div>
+
         <!-- footer ends -->
 
         <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
-            </script>
+
+        <script src="bootstrapjs.js"></script>
 
 </body>
 

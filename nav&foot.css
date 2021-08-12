@@ -28,7 +28,7 @@
   .navbar{
     position: fixed;
     top: 0;
-    /* height: 13vh !important; */
+    /* height: 11vh !important; */
     z-index: 5;
   }
   /* NCC and IITR Logo */
@@ -186,7 +186,7 @@
 
 .logo-social{
   /* width: 50px; */
-  width: 15%;
+  width: 11%;
   background-color: #003665;
 }
 
@@ -284,6 +284,11 @@ a#logo5:hover>img {
   }
 }
 /* For window View */
+@media only screen and (min-width:992px) {
+  .social-cont{
+    padding-left: 70px;
+  }
+}
 @media only screen and (min-width:779px) {
   .logoiitr1 {
       display: none;
