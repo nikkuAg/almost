@@ -109,23 +109,6 @@
   
   /* media query part */
   /* For Mobile View  */
-  @media only screen and (max-width:779px) {
-    .menu {
-        display: none;
-    }
-    .hamburger-menu {
-        display: block;
-    }
-    .menu__btn{
-      margin-top: 10px;
-    }
-    .logoiitr1{
-      margin-bottom: 5px;
-    }
-  
-    .logoiitr2 {
-        display: none;
-    }
     /* .footer{
       flex-direction: column;
       align-items: center;
@@ -155,16 +138,9 @@
     .address p{
       font-size: 20px;
     } */
-  }
   
   
-  @media only screen and (min-width:779px) and (max-width:910px) {
-    .logoiitr1 {
-        display: none;
-    }
-    .logoiitr2 {
-      margin-bottom: 15px; 
-    }
+  
     /* #social #logo1, #logo2, #logo3, #logo4, #logo5 {
       padding-top: 20px;
     }
@@ -191,23 +167,8 @@
       font-size: 18px;
     } */
     
-  }
+  /* } */
   /* For window View */
-  @media only screen and (min-width:779px) {
-    .logoiitr1 {
-        display: none;
-    }
-    .logoiitr2 {
-      margin-bottom: 15px;
-  }
-    .hamburger-menu{
-      display: none;
-    }
-    .menu{
-      position: absolute;
-      left: 90px;
-    }
-  }
   
   /* for main home page */
   
